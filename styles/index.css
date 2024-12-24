@@ -1,0 +1,224 @@
+
+/* header */
+body{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 900;
+    font-weight: 800;
+}
+
+  .overlay {
+    position: absolute; 
+    top: 0;   
+  }
+
+.first-title{
+    color: #151414;
+text-align: right;
+font-family: "Work Sans";
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 210px 230px 24px 840px;
+}
+
+
+.first-description{
+    color: #444343;
+text-align: right;
+font-family: "Work Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+margin: 0px 230px 30px 870px;
+
+}
+
+.button-orange{
+    color: #FFF;
+
+text-align: center;
+font-family: "Work Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border-radius: 5px;
+background: #F15B22;
+width: 160px;
+height: 64px;
+flex-shrink: 0;
+margin: 0px 230px 160px 1200px;
+}
+
+/* main */
+
+.part-1{
+    display: flex;
+}
+.dp{
+    margin: 140px 105px 0px 200px;
+}
+
+.details-title{
+    color:  #151414;
+
+font-size: 40px;
+
+font-weight: 700;
+line-height: normal;
+margin: 370px 450px 24px 0px;
+}
+
+.details-description,ul{
+    color:  #444343;
+
+font-size: 16px;
+
+font-weight: 400;
+
+
+}
+
+.part-2-title{
+    color:  #151414;
+    text-align: center;
+font-family: "Work Sans";
+font-size: 40px;
+
+font-weight: 700;
+}
+
+.skill{
+    display: flex;
+}
+
+.skill-title{
+    color: #151414;
+text-align: center;
+
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+
+.skill-description{
+    color: #737272;
+text-align: center;
+font-family: "Work Sans";
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.part-2-title{
+    margin-top: 180px;
+}
+
+.skill{
+   
+    margin: 55px 98px 16px 230px;
+    gap: 100px;
+}
+
+
+
+
+
+.part-3-title{
+   
+
+    color: #FFF;
+font-size: 40px;
+
+font-weight: 700;
+
+}
+
+.button-white{
+    color: #F15B22;
+background-color: #FFF;
+text-align: center;
+font-family: "Work Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding: 20px 30px;
+}
+
+.img-1{
+    margin: 135px 230px 130px 230px;
+    background-image: url('../images/watch.png');
+}
+.overlay-1{
+    position: absolute;
+   margin: 0px 300px 300px 300px;
+   top: 2400px;
+
+}
+
+
+/* footer */
+footer{
+    background-color:#151414 ;
+    width: 1800px;
+height: 577px;
+}
+
+.foot-last{
+    display: flex;
+    /* margin: 130px; */
+}
+.foot-title{
+    color: #F8F8F8;
+
+font-family: "Work Sans";
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+
+}
+
+.foot-description{
+    color: #FFF;
+text-align: left;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+
+}
+
+.ic{
+    display: flex;
+    gap: 40px ;
+}
+
+.inp{
+    background-color: #151414;
+    padding: 20px 150px 20px 20px;
+    margin: 0px 0px  18px 0px;
+   
+
+}
+
+.f-p-1{
+    margin: 100px;
+
+}
+
+.f-p-2{
+    margin: 100px 300px 80px 90px ;
+}
+
+::placeholder{
+    color: #F3F3F3;
+}
